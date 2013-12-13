@@ -1,4 +1,7 @@
 Fb::Application.routes.draw do
+  root "pages#home"  
+  get "home" => "pages#home"
+  get "new" => "pages#new"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
